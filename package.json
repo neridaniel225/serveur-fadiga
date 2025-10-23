@@ -1,0 +1,44 @@
+{
+  "name": "oeil-agripreneur",
+  "version": "1.0.0",
+  "description": "L'Œil de l'Agripreneur - Dashboard de surveillance agricole intelligente avec détection en temps réel",
+  "main": "dashboard_server.js",
+  "scripts": {
+    "start": "node dashboard_server.js",
+    "dev": "nodemon dashboard_server.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "agriculture",
+    "yolo",
+    "detection",
+    "iot",
+    "raspberry-pi",
+    "surveillance",
+    "agritech",
+    "computer-vision"
+  ],
+  "author": "Votre Nom",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "socket.io": "^4.6.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VOTRE-USERNAME/oeil-agripreneur.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VOTRE-USERNAME/oeil-agripreneur/issues"
+  },
+  "homepage": "https://github.com/VOTRE-USERNAME/oeil-agripreneur#readme"
+}
